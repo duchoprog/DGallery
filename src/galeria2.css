@@ -1,0 +1,112 @@
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+p {
+  font-size: 16px;
+}
+#myNavbar {
+  min-width: 8em;
+}
+#menu {
+  background-color: #fff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  right: 0;
+  width: 100%; /* Full width */
+  margin: auto;
+  z-index: 2;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+.bg-1 {
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
+.bg-2 {
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 {
+  background-color: #ffffff; /* White */
+  color: #555555;
+}
+.bg-4 {
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+#home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#work {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.center {
+  margin: auto !important;
+}
+td {
+  padding-left: 1vw;
+}
+i {
+  font-size: 1.5em;
+  padding-left: 3vw;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.1); /* Black w/ opacity */
+}
+#artist {
+  min-height: 100vh;
+}
+#contact {
+  min-height: 90vh;
+  border: none;
+  font-size: 0.8em;
+}
+div {
+  border: none !important;
+  
+}
+.carousel-indicators{
+  background-color:rgba (8, 0, 0, 0.7)!important;
+  border-radius:4px
+}
+img{
+  height:95% !important;
+  border-radius:3
+  
+}
