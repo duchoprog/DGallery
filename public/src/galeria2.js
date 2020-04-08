@@ -24,15 +24,20 @@ function vergaleria() {
 }
 
 function armarTarjetaDB(nombre, comentarios, url, borrador, counter) {
-  console.log(url)
+
   var counter = counter
+  console.log(counter + " " + url)
   var activator = ""
   if (counter == 0) { activator = "active" }
   var tarj = `<div class="item ${activator}" style="height:75vh;width:90vw; ">
   <img src=${url}  class="center "   /></div>`
   document.querySelector(".carousel-inner").innerHTML += tarj
+  //var popo = document.createElement("div").innerHTML()
+
+  //document.querySelector("body").appendChild(popo)
   var punto = `<li data-target="#myCarousel" data-slide-to="${counter}" class=" ${activator}"></li>`
   document.querySelector(".carousel-indicators").innerHTML += punto
+
 }
 
 
