@@ -1,198 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Theme Made By www.w3schools.com - No Copyright -->
+    <title>Fabian Mrad Pinturas</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Fabian Mrad Pinturas</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/13000d7cb8.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- <script src="https://kit.fontawesome.com/13000d7cb8.js" crossorigin="anonymous"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/galeria2.css" />
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-  <link rel="stylesheet" href="src/galeria2.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header" id="menu">
+          <button
+            id="hamb"
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" style="display: inline;" id="homeBot"
+            >Fabian Mrad - Pinturas</a
+          >
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-default">
-    <div class="container">
-      <div class="navbar-header" id="menu">
-        <button id="hamb" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#" style="display:inline" id="homeBot">Fabian Mrad - Pinturas</a>
-
-        <div class="collapse navbar-collapse bg-4 " data-toggle="collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#work" id="workBot">Obras</a>
-            </li>
-            <li><a href="#artist" id="artistBot">Artista</a></li>
-            <li><a href="#contact" id="contactBot">Contacto</a></li>
-          </ul>
+          <div
+            class="collapse navbar-collapse bg-4"
+            data-toggle="collapse"
+            id="myNavbar"
+          >
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#work" id="workBot">Obras</a>
+              </li>
+              <li><a href="#artist" id="artistBot">Artista</a></li>
+              <li><a href="#contact" id="contactBot">Contacto</a></li>
+            </ul>
+          </div>
         </div>
       </div>
+    </nav>
+
+    <!-- First Container -->
+
+    <div id="home" class="container-fluid bg-4 text-center">
+      <div>
+        <h1 class="text-center">Fabian Mrad</h1>
+        <h2 class="text-center">PAINTINGS</h2>
+      </div>
     </div>
-  </nav>
 
-  <!-- First Container -->
-
-  <div id="home" class="container-fluid bg-4 text-center">
-    <div>
-      <h1 class="text-center">Fabian Mrad</h1>
-      <h2 class="text-center">PAINTINGS</h2>
-    </div>
-  </div>
-
-  <!-- Second Container -->
-  <div class="container-fluid bg-2 text-center" id="work">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <!-- <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <!-- Second Container -->
+    <div class="container-fluid bg-2 text-center" id="work">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <!-- <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li> -->
-      </ol>
+        </ol>
 
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner"></div>
 
-      </div>
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
-
-  <!-- Third Container (Grid) -->
-  <div id="artist" class="container-fluid bg-3 text-center">
-    <h2>
-      The artist
-    </h2>
-    <p id="artistText">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-      debitis ipsum aperiam fugiat, facilis nobis, iste itaque quam autem
-      asperiores, maiores iusto perspiciatis natus enim! Architecto, omnis
-      molestiae? Veritatis, voluptate.
-    </p>
-    <p id="artistText">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
-      debitis ipsum aperiam fugiat, facilis nobis, iste itaque quam autem
-      asperiores, maiores iusto perspiciatis natus enim! Architecto, omnis
-      molestiae? Veritatis, voluptate.
-    </p>
-  </div>
-  <div id="contact" class="container-fluid bg-2 text-center">
-    <div class="margin-top table-responsive">
-      <h2>We'd love to hear from you!</h2>
-      <form name="contactform" method="post" action="send_form_email.php">
-        <table id="form" class="center">
-          <tr>
-            <td valign="top" class="text-left">
-              <label for="first_name">First Name *</label>
-            </td>
-            <td valign="top">
-              <input type="text" name="first_name" class="form-control" maxlength="50" size="30" />
-            </td>
-          </tr>
-          <tr>
-            <td valign="top" class="text-left">
-              <label for="last_name">Last Name *</label>
-            </td>
-            <td valign="top">
-              <input type="text" name="last_name" class="form-control" maxlength="50" size="30" />
-            </td>
-          </tr>
-          <tr>
-            <td valign="top" class="text-left">
-              <label for="email">Email Address *</label>
-            </td>
-            <td valign="top">
-              <input type="text" name="email" class="form-control" maxlength="80" size="30" />
-            </td>
-          </tr>
-          <tr>
-            <td valign="top" class="text-left">
-              <label for="telephone">Phone Number</label>
-            </td>
-            <td valign="top">
-              <input type="text" name="telephone" class="form-control" maxlength="30" size="30" />
-            </td>
-          </tr>
-          <tr>
-            <td valign="top" class="text-left">
-              <label for="comments">Comments *</label>
-            </td>
-            <td valign="top">
-              <textarea name="comments" class="form-control" maxlength="1000" cols="25" rows="6"></textarea>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2" style="text-align:center">
-              <input type="submit" value="Submit" class="btn bg-3" id="submit" />
-            </td>
-          </tr>
-        </table>
-      </form>
-    </div>
-    <br />
-    <div id="social">
-      <div class="margin-top table-responsive center" style="width:50vw; ">
-        <table class="center">
-          <tr>
-            <td><i class="fab fa-twitter"> </i></td>
-            <td><i class="fab fa-facebook-f"></i></td>
-            <td><i class="far fa-envelope"></i></td>
-          </tr>
-        </table>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-  </div>
-  <!--Modal!-->
-  <div id="myModal" class="modal"></div>
 
-  <!-- Footer -->
-  <footer class="container-fluid bg-4 text-center">
-    <p>
-      made by Duchoprog
-    </p>
-  </footer>
-  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+    <!-- Third Container (Grid) -->
+    <div id="artist" class="container-fluid bg-3 text-center">
+      <h2>
+        The artist
+      </h2>
+      <p id="artistText">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+        debitis ipsum aperiam fugiat, facilis nobis, iste itaque quam autem
+        asperiores, maiores iusto perspiciatis natus enim! Architecto, omnis
+        molestiae? Veritatis, voluptate.
+      </p>
+      <p id="artistText">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
+        debitis ipsum aperiam fugiat, facilis nobis, iste itaque quam autem
+        asperiores, maiores iusto perspiciatis natus enim! Architecto, omnis
+        molestiae? Veritatis, voluptate.
+      </p>
+    </div>
+    <div id="contact" class="container-fluid bg-2 text-center">
+      <div class="margin-top table-responsive">
+        <h2>We'd love to hear from you!</h2>
+        <div id="social">
+          <div class="margin-top table-responsive center" style="width: 50vw;">
+            <table class="center">
+              <tr>
+                <td><i class="fab fa-twitter"> </i></td>
+                <td><i class="fab fa-facebook-f"></i></td>
+                <td><i class="far fa-envelope"></i></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- <form name="contactform" method="post" action="send_form_email.php">
+          <table id="form" class="center">
+            <tr>
+              <td valign="top" class="text-left">
+                <label for="first_name">First Name *</label>
+              </td>
+              <td valign="top">
+                <input
+                  type="text"
+                  name="first_name"
+                  class="form-control"
+                  maxlength="50"
+                  size="30"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" class="text-left">
+                <label for="last_name">Last Name *</label>
+              </td>
+              <td valign="top">
+                <input
+                  type="text"
+                  name="last_name"
+                  class="form-control"
+                  maxlength="50"
+                  size="30"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" class="text-left">
+                <label for="email">Email Address *</label>
+              </td>
+              <td valign="top">
+                <input
+                  type="text"
+                  name="email"
+                  class="form-control"
+                  maxlength="80"
+                  size="30"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" class="text-left">
+                <label for="telephone">Phone Number</label>
+              </td>
+              <td valign="top">
+                <input
+                  type="text"
+                  name="telephone"
+                  class="form-control"
+                  maxlength="30"
+                  size="30"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td valign="top" class="text-left">
+                <label for="comments">Comments *</label>
+              </td>
+              <td valign="top">
+                <textarea
+                  name="comments"
+                  class="form-control"
+                  maxlength="1000"
+                  cols="25"
+                  rows="6"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center;">
+                <input
+                  type="submit"
+                  value="Submit"
+                  class="btn bg-3"
+                  id="submit"
+                />
+              </td>
+            </tr>
+          </table>
+        </form> -->
+      </div>
+      <br />
+    </div>
+    <!--Modal!-->
+    <div id="myModal" class="modal"></div>
 
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+      <p>
+        made by Duchoprog
+      </p>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
 
-  <script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyCMv8T8KMTaKUqBxXWVuXxFjPdsblfhGPk",
+        authDomain: "dpgallery-a960c.firebaseapp.com",
+        databaseURL: "https://dpgallery-a960c.firebaseio.com",
+        projectId: "dpgallery-a960c",
+        storageBucket: "dpgallery-a960c.appspot.com",
+        messagingSenderId: "687915072234",
+        appId: "1:687915072234:web:26caa44423b86ef11e7593",
+      };
 
-    var firebaseConfig = {
-      apiKey: "AIzaSyCMv8T8KMTaKUqBxXWVuXxFjPdsblfhGPk",
-      authDomain: "dpgallery-a960c.firebaseapp.com",
-      databaseURL: "https://dpgallery-a960c.firebaseio.com",
-      projectId: "dpgallery-a960c",
-      storageBucket: "dpgallery-a960c.appspot.com",
-      messagingSenderId: "687915072234",
-      appId: "1:687915072234:web:26caa44423b86ef11e7593"
-    };
-
-    firebase.initializeApp(firebaseConfig);
-  </script>
-  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-storage.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js"></script>
-  <script src="src/galeria2.js"></script>
-</body>
-
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-functions.js"></script>
+    <script src="src/galeria2.js"></script>
+  </body>
 </html>
