@@ -8,5 +8,3 @@ const cors = corsPre({ origin: true });
 // exports.helloWorld = functions.https.onRequest((request, response) => {
 //  response.send("Hello from Firebase!");
 // });
-
-//
