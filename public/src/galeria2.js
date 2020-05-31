@@ -35,7 +35,7 @@ function armarTarjetaDB(nombre, comentarios, url, borrador, counter) {
     activator = "active";
   }
   var tarj = `<div class="item ${activator}" style="height:75vh;width:90vw; ">
-  <img src=${url}  class="center "   /></div>`;
+  <img src=${url}  class="center img-responsive "   /></div>`;
   document.querySelector(".carousel-inner").innerHTML += tarj;
   //var popo = document.createElement("div").innerHTML()
 
